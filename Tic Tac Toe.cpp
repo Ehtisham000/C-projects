@@ -1,10 +1,9 @@
 #include<fstream>
 #include<iostream>
-#include <conio.h> 
 #include <string>
 using namespace std;
 //Game play funtion
-void clrscr();
+
 void Game_play(char** m,int rows,int cols, char play1[], char play2[] ,int& player1_wins ,int& player2_wins ,int& draw )
 {
    
@@ -37,7 +36,7 @@ void Game_play(char** m,int rows,int cols, char play1[], char play2[] ,int& play
                             cout << "_____|_____|_____" << endl;
                             cout << " " << m[2][0] << "   |  " << m[2][1] << "  | " << m[2][2] << endl;
                             cout << "     |     |    " << endl;
-                            clrscr();
+                            
                             goto end_of_both;
                         }
 
